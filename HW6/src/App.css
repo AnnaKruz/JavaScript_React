@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.header-nav > ul {
+    padding: 5px 0 5px 15px;
+    display: flex;
+    gap: 30px;
+    background-color: wheat;
+}
+
+.header-nav > ul > li > a {
+    color: cornflowerblue;
+}
+
+.products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.product {
+    min-height: 200px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.product-description {
+    text-align: center;
+}
+
+.product-available {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.product-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.product-buttons > *, .product-available > button, .add-form > button {
+    border: 0;
+    background-color: cornflowerblue;
+    color: wheat;
+    padding: 3px 8px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.add-form {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-form input {
+    border: 0 !important;
+    border-style: none;
+    background-color: wheat;
+    padding: 5px 10px;
+}
+
+.add-form input:focus {
+    outline: 2px solid cornflowerblue;
+}
+
+.add-form label {
+    color: cornflowerblue;
+}
+
+.add-form > label > input {
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.complete {
+    color: cornflowerblue;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
