@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App > div {
+    min-height: 100vh;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 11px;
+    margin-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: black;
+    color: white;
+}
+
+.btn-dark {
+    background-color: white;
+    color: black;
+}
